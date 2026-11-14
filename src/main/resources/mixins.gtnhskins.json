@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "minVersion": "0.8.7",
+  "package": "com.lumidust.gtnhskins.mixin",
+  "refmap": "mixins.gtnhskins.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityTrackerAccessor",
+    "EntityTrackerEntryAccessor",
+    "EntityPlayerMPAccessor"
+  ],
+  "client": [
+    "ClientPlayerMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

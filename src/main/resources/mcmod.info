@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "Mojang skin restoration and management for GTNH, with an optional client bridge.",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "https://github.com/LumiDust/GTNH-Skins",
+    "authorList": ["LumiDust"],
+    "requiredMods": ["unimixins"],
+    "dependencies": ["unimixins"]
+  }
+]

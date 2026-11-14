@@ -1,0 +1,75 @@
+name: Bug Report
+description: Report a bug encountered with GTNH Skins
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🐛 **Before submitting:**
+        - Ensure you're using the latest mod version
+        - Ensure this bug is reproducible consistently
+        - Check existing issues for duplicates
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: GTNH Skins Version
+      description: Exact version of the mod
+      placeholder: e.g., 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: gtnh-version
+    attributes:
+      label: GT New Horizons Version
+      description: Exact GTNH pack version
+      placeholder: e.g., 2.9.0-RC-2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: installation
+    attributes:
+      label: Installation
+      description: Where is the mod installed?
+      options:
+        - Server only
+        - Server and client
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the behaviour you observed
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: Describe the behaviour you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste the relevant lines from `logs/latest.log` or `logs/fml-server-latest.log`
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I've checked for existing issues
+          required: true
