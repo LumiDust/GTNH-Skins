@@ -2,7 +2,7 @@
 
 ## [1.0.0] - 2026-11-14
 
-首个独立版本，面向 GT New Horizons 2.9.0-RC-2 / Minecraft 1.7.10 / Java 25。
+首个独立版本，面向 GT New Horizons 2.9.0 / Minecraft 1.7.10 / Java 25。
 
 ### 新增
 

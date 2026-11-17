@@ -4,12 +4,12 @@
 
 ## 支持环境
 
-- GT New Horizons 2.9.0-RC-2
+- GT New Horizons 2.9.0
 - Minecraft 1.7.10
 - Forge 10.13.4.1614
 - Java 25
 - UniMixins 0.3.1
-- SimpleSkinBackport 1.0.3-GTNH（GTNH 自带）
+- SimpleSkinBackport 1.0.5-GTNH（GTNH 自带）
 
 ## 功能
 
@@ -29,7 +29,7 @@
 
 ## 安装
 
-1. 确认服务器使用 GTNH 2.9.0-RC-2 的 Java 25 发行包。
+1. 确认服务器使用 GTNH 2.9.0 的 Java 25 发行包。
 2. 将 `gtnhskins-1.0.0.jar` 放入服务器 `mods` 目录。
 3. 服务器已自带 UniMixins 与 SimpleSkinBackport，无需额外安装。
 4. 需要本人第一人称与 F5 视角实时生效的玩家，把同一个 JAR 放进客户端 `mods` 目录。
@@ -83,7 +83,7 @@ Mojang 不可用时玩家仍可登录和继续游戏。设置或刷新失败会�
 - SkinPort、CustomSkinLoader 等额外皮肤加载链
 - 跨世界全局皮肤存储
 
-正版 `online-mode=true` 的完整登录矩阵需要用真实正版账号单独验证；离线服务器、Mojang 签名纹理、双客户端观察、classic/slim 与重启恢复已在 GTNH 2.9.0-RC-2 上验证。
+正版 `online-mode=true` 的完整登录矩阵需要用真实正版账号单独验证；离线服务器、Mojang 签名纹理、双客户端观察、classic/slim 与重启恢复已在 GTNH 2.9.0 上验证。
 
 ## 构建
 
