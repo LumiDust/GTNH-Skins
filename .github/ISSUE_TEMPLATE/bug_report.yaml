@@ -25,7 +25,7 @@ body:
     attributes:
       label: GT New Horizons Version
       description: Exact GTNH pack version
-      placeholder: e.g., 2.9.0-RC-2
+      placeholder: e.g., 2.9.0
     validations:
       required: true
 
