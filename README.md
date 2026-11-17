@@ -98,6 +98,14 @@ $env:Path = "$env:JAVA_HOME\bin;$env:Path"
 
 产物位于 `build/libs/gtnhskins-1.0.0.jar`，`-dev` 后缀的 JAR 仅用于开发环境。
 
+## 致谢
+
+感谢 [Lionarius](https://github.com/Suiranoil) 创作并开源 [SkinRestorer](https://github.com/Suiranoil/SkinRestorer)。本项目在 GTNH 1.7.10 上的皮肤分发方案、配置结构与命令约定，来自对这份工作的借鉴与应用。
+
+感谢 [GT New Horizons](https://github.com/GTNewHorizons) 团队维护整合包与构建工具链，并提供 [SimpleSkinBackport](https://github.com/GTNewHorizons/SimpleSkinBackport) 承担 1.7.10 的皮肤纹理解析与 slim 模型渲染。
+
+感谢 [UniMixins](https://github.com/LegacyModdingMC/UniMixins) 提供 1.7.10 上可用的 Mixin 运行环境。
+
 ## 许可
 
 MIT，详见 [LICENSE](LICENSE)。
